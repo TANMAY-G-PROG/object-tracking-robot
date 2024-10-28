@@ -3,7 +3,6 @@ import cv2
 
 def initialize_tracker():
     tracker = cv2.TrackerKCF_create()
-    print("Tracker created Successfully")
     return tracker
 
 def update_tracker(tracker, frame):
